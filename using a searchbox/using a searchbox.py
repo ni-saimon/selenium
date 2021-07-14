@@ -2,7 +2,7 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 import time
 
-PATH = "U:\Selenium\one1\chromedriver.exe"
+PATH = "..\using a searchbox\chromedriver.exe"
 driver = webdriver.Chrome(PATH)
 
 driver.get("https://www.google.com/")
